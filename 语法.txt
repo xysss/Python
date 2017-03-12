@@ -1,0 +1,123 @@
+
+'''
+age = 23
+message = "Happy " + str(age) + "rd Birthday!"
+print(message)
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[0].title())
+print(bicycles[-1])
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
+motorcycles.append('ducati')
+print(motorcycles)
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+del motorcycles[0]
+# print(motorcycles)
+# del motorcycles[1]
+print(motorcycles)
+
+
+# motorcycles = ['honda', 'yamaha', 'suzuki']
+# print(motorcycles)
+# popped_motorcycle = motorcycles.pop()
+# print(motorcycles)
+# print(popped_motorcycle)
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
+
+print(5+3)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+
+cars.sort() #zimushunxu
+print(cars)
+cars.sort(reverse=True) #daoxu
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(magician)
+print("Thank you, everyone. That was a great magic show!")
+
+for value in range(1,6):
+    print(value)
+numbers = list(range(1,6))
+print(numbers)
+even_numbers = list(range(2,11,2))
+print(even_numbers)
+
+squares = []
+for value in range(1,11):
+    square = value**2
+    squares.append(square)
+print(squares)
+
+squares = []
+for value in range(1,11):
+    squares.append(value**2)
+
+digist=[1,2,3,4,5]
+print(max(digist))
+print(min(digist))
+print(sum(digist))
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[0:3])
+print(players[:4])
+print(players[2:])
+print(players[-3:])
+
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+print("My favorite foods are:")
+print(my_foods)
+print("\nMy friend's favorite foods are:")
+print(friend_foods)
+'''
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+
+dimensions = (200, 50)
+print("Original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+dimensions = (400, 100)
+print("\nModified dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+
+
+
+
+
+
+
+
+
